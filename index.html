@@ -1,1 +1,168 @@
-# M.nunes
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroAcadêmico | Portal de Agricultura Universitária</title>
+    <style>
+        /* Estilos Básicos e Paleta de Cores */
+        :root {
+            --primary-color: #2e7d32; /* Verde Agro */
+            --secondary-color: #81c784;
+            --dark-color: #1b5e20;
+            --light-bg: #f4f9f4;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho e Menu */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--secondary-color);
+        }
+
+        /* Seção Hero (Banner) */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Conteúdo Principal */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        /* Cards de Recursos */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary-color);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--dark-color);
+            margin-top: 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 4rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌱 AgroAcadêmico</h1>
+        <nav>
+            <a href="#artigos">Artigos</a>
+            <a href="#pesquisa">Pesquisas</a>
+            <a href="#estagios">Estágios</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>O Futuro da Agricultura Começa na Universidade</h2>
+        <p>Conectando estudantes de Agronomia, Engenharia Agrícola e áreas afins à ciência do campo.</p>
+    </section>
+
+    <main class="container">
+        
+        <section id="sobre">
+            <h2>Bem-vindo ao seu ecossistema de aprendizado</h2>
+            <p>Este espaço foi criado para centralizar artigos científicos simplificados, discussões sobre inovação tecnológica no campo (AgTechs), e oportunidades para a comunidade acadêmica.</p>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; margin: 3rem 0;">
+
+        <h2>Recursos para Estudantes</h2>
+        <div class="grid">
+            
+            <div class="card" id="artigos">
+                <h3>📚 Biblioteca de Resumos</h3>
+                <p>Acesse resumos de artigos científicos, teses e TCCs focados em manejo de solo, fitotecnia e agricultura de precisão de forma mastigada.</p>
+            </div>
+
+            <div class="card" id="pesquisa">
+                <h3>🔬 Projetos & Extensão</h3>
+                <p>Espaço para divulgar os experimentos que estão acontecendo nos laboratórios e fazendas experimentais das universidades.</p>
+            </div>
+
+            <div class="card" id="estagios">
+                <h3>💼 Mural de Estágios</h3>
+                <p>Fique por dentro das melhores oportunidades de estágio, trainees e bolsas de pesquisa no setor do agronegócio.</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AgroAcadêmico - Desenvolvido para Universitários da Agricultura</p>
+    </footer>
+
+</body>
+</html>
