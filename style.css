@@ -1,1 +1,98 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>*** AGRO-UNIV: O PORTAL DA AGRICULTURA UNIVERSITÁRIA!!! ***</title>
+</head>
+<body bgcolor="#C0C0C0" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+    <center>
+        <marquee bgcolor="#000080" scrollamount="5">
+            <font color="#FFFFFF" size="5" face="Comic Sans MS">
+                <b>BEM-VINDO AO AGRO-UNIV!! O MELHOR SITE DE AGRONOMIA DA WEB DE 1999!</b>
+            </font>
+        </marquee>
+
+        <br>
+        <table border="5" cellpadding="10" cellspacing="5" bgcolor="#008080">
+            <tr>
+                <td>
+                    <center>
+                        <h1><font color="#FFFF00" face="Impact">🌱 AGRO-UNIV 🌾</font></h1>
+                        <h3><font color="#FFFFFF" face="Arial">A Ciência do Campo na Tela do seu Computador</font></h3>
+                        <span style="text-decoration: blink;"><font color="#FF0000" size="4"><b>⚡ NOVIDADE NO AR! ⚡</b></font></span>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <br><hr size="5" noshade><br>
+
+    <table border="3" width="100%" cellpadding="10" cellspacing="5" bgcolor="#E0E0E0">
+        <tr>
+            <td width="25%" valign="top" bgcolor="#808080">
+                <center><b><font color="#FFFFFF" face="Arial" size="4">MENU PRINCIPAL</font></b></center>
+                <hr>
+                <p>👉 <a href="#artigos"><b>Biblioteca de Resumos</b></a></p>
+                <p>👉 <a href="#pesquisa"><b>Projetos & Extensão</b></a></p>
+                <p>👉 <a href="#estagios"><b>Mural de Estágios</b></a></p>
+                <p>👉 <a href="#livro"><b>Livro de Visitas</b></a></p>
+                <hr>
+                <center>
+                    <p><font color="#FF0000" size="2"><b>MELHOR VISUALIZADO EM:<br>NETSCAPE NAVIGATOR<br>RESOLUÇÃO 800x600</b></font></p>
+                    <a href="mailto:contato@agrouniv.com.br"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Animated_Email_by_Ales_Z集中.gif" width="50" alt="E-mail" border="0"><br>Escreva-nos!</a>
+                </center>
+            </td>
+
+            <td width="75%" valign="top">
+                <h2><font face="Times New Roman" color="#000080">🔬 O que é o Agro-Univ?</font></h2>
+                <p><font face="Times New Roman" size="3">Este site foi desenvolvido em código HTML puro para ajudar os estudantes de Agronomia, Engenharia Agrícola e Zootecnia a encontrarem materiais de estudo sem precisar ir até a biblioteca central da faculdade!</font></p>
+                
+                <center>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Tractor_icon.svg" width="120" border="2" alt="Trator ClipArt">
+                </center>
+
+                <br>
+                <hr size="2">
+
+                <a name="artigos"></a>
+                <h3><font color="#008000" face="Arial">📚 Biblioteca de Resumos (Novo!)</font></h3>
+                <p>Acesse aqui os resumos digitados de fitotecnia, solos e irrigação. Não precisa mais xerocar a matéria do colega!</p>
+
+                <a name="pesquisa"></a>
+                <h3><font color="#008000" face="Arial">🔬 Projetos de Iniciação Científica</font></h3>
+                <p>Veja as fotos dos nossos experimentos com milho e soja na fazenda escola.</p>
+
+                <a name="estagios"></a>
+                <h3><font color="#008000" face="Arial">🚧 Mural de Estágios</font></h3>
+                <center>
+                    <p><b><font color="#FF0000" face="Courier New">SESSÃO EM CONSTRUÇÃO!</font></b></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Under_construction_animated.gif" alt="Em Construção" border="0">
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <br><hr size="5" noshade><br>
+
+    <center>
+        <a name="livro"></a>
+        <table border="2" bgcolor="#000000" cellpadding="5">
+            <tr>
+                <td>
+                    <font color="#00FF00" face="Courier New" size="4"><b>VOCÊ É O VISITANTE Nº: [0012345]</b></font>
+                </td>
+            </tr>
+        </table>
+        
+        <br>
+        <p><font size="2" face="Arial"><b>⚡ Site criado por Universitários da Agricultura em 1999 ⚡</b><br>
+        Todos os direitos reservados. Clique aqui para assinar nosso <a href="#"><b>GUESTBOOK</b></a>!</font></p>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Rainbow_line.gif" width="80%" height="10">
+    </center>
+
+</body>
+</html>
